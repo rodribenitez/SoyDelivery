@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driver</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/forms.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/index.html">
+            <img
+              src="/img/Logo-SoyDelivery_naranja-fondo-transparente_com_uy copia 2 1.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul class="list-no-mobile">
+          <li><a class="inicio" href="/index.html">Inicio</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="/AboutUs.html">Conocenos</a></li>
+          <li>
+            <a id="contact-desktop"
+              >Contacto
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="sub-menu-desktop" id="sub-menu-desktop">
+              <li>
+                <a href="/service.html">Cotiza tus servicios</a>
+              </li>
+              <li>
+                <a href="/work.html">Trabaja con nosotros</a>
+              </li>
+              <li>
+                <a href="/driver.html">Quiero ser chofer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="icon-hamburger">
+          <i id="icon_hamburger" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu" id="drop_menu">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="/AboutUs.html">Conocenos</a></li>
+          <li class="contact" id="contact">
+            <a>Contacto <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+        </div>
+        <ul class="sub_menu" id="sub_menu">
+          <li>
+            <a href="/service.html">Cotiza tus servicios</a>
+          </li>
+          <li>
+            <a href="/work.html">Trabaja con nosotros</a>
+          </li>
+          <li>
+            <a href="/driver.html">Quiero ser chofer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="back">
+        <a href="/index.html"> <img src="/img/icons/back.png" alt="" /></a>
+        <div>
+          <p>Contacto</p>
+        </div>
+      </div>
+      <form action="" class="forms_group">
+        <h1>Te estamos buscando</h1>
+        <h5 class="titles-form">
+          ¿Tenés un vehículo y querés trabajar con nosotros? Compléta el
+          siguiente formulario y nos pondremos en contacto contigo
+        </h5>
+
+        <div class="container_forms">
+          <div>
+            <input type="text" placeholder="Nombre completo" />
+            <input type="text" placeholder="Teléfono" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Edad" />
+          </div>
+          <div>
+            <input type="text" placeholder="Carné de salud vigente" />
+            <input type="text" placeholder="Lugar de residencia" />
+          </div>
+
+          <div class="vehicle">
+            <p>¿Que tipo de vehiculo tenes?</p>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="moto" />
+              <label for="moto">Moto</label>
+            </div>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="bici" />
+              <label for="bici">Bicicleta</label>
+            </div>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="cam-samll" />
+              <label for="cam-samll"
+                >Camioneta pequeña (Fiorno, Berlina, etc)</label
+              >
+            </div>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="cam-med" />
+              <label for="cam-med">Camioneta mediana (H1, Expert, etc)</label>
+            </div>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="cam-big" />
+              <label for="cam-big">Camioneta grande (Boxer, Master, etc)</label>
+            </div>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="furgon" />
+              <label for="furgon">Camión con furgón</label>
+            </div>
+            <div class="vehicle_checks">
+              <input type="checkbox" name="" id="cam-open" />
+              <label for="cam-open">Camión abierto</label>
+            </div>
+          </div>
+          <div>
+            <input type="text" placeholder="Marca y modelo del vehículo" />
+            <input type="number" name="" id="" placeholder="Año del vehiculo" />
+          </div>
+
+          <div class="vehicle_cats">
+            <p>¿Que tipo de libreta de conducir tenes?</p>
+            <div class="grid">
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_a" />
+                <label for="cat_a">Categoría A</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_b" />
+                <label for="cat_b">Categoría B</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_c" />
+                <label for="cat_c">Categoría C</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_d" />
+                <label for="cat_d">Categoría D</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_e" />
+                <label for="cat_e">Categoría E</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_f" />
+                <label for="cat_f">Categoría F</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_g1" />
+                <label for="cat_g1">Categoría G1</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_g2" />
+                <label for="cat_g2">Categoría G2</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_g3" />
+                <label for="cat_g3">Categoría G3</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="cat_h" />
+                <label for="cat_h">Categoría H</label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input type="text" placeholder="¿Tenes empresa propia?" />
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="¿Que tipo de empresa?"
+            />
+          </div>
+          <div>
+            <div class="vehicle">
+              <p>¿Que disponibilidad tenes para trabajar?</p>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="" />
+                <label>Full</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="" />
+                <label>Solo en la mañana</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="" />
+                <label>Solo en la tarde</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="" />
+                <label>Entre semana</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="" />
+                <label>Fines de semana</label>
+              </div>
+              <div class="vehicle_checks">
+                <input type="checkbox" name="" id="" />
+                <label>Otro</label>
+              </div>
+            </div>
+          </div>
+          <input type="text" placeholder="¿Como nos conociste?" />
+          <textarea
+            name=""
+            id=""
+            cols="65"
+            rows="10"
+            placeholder="¿Te gustaría agregar algún comentario?"
+          ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+          <span class="chat-delivery-logo">SD</span>
+          <span class="name-company">Soydelivery</span>
+          <button class="chat-close" id="chat-close">X</button>
+        </div>
+        <div class="chat-messages">
+          <div class="chat-messages-logo">SD</div>
+          <div class="message">
+            <p class="titles">
+              Bienvenido a soydelivery. Es un gusto ayudarte hoy!
+            </p>
+            <p class="titles">
+              Porfavor indica el numero de opción que deseas :
+            </p>
+            <ol class="list-chat">
+              <li><p>Consultar el estado de un pedido</p></li>
+              <li><p>Devolucion de un paquete</p></li>
+              <li><p>Cambiar dirección u horario de entrega</p></li>
+              <li><p>Cancelar un paquete</p></li>
+              <li><p>Hablar con un agente</p></li>
+              <li><p>Consulta comercial</p></li>
+              <li><p>Solicitud de retiro</p></li>
+              <li><p>Quiero ser conductor</p></li>
+              <li><p>Finalizar atención</p></li>
+            </ol>
+          </div>
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Escribe tu mensaje..." />
+          <img src="/img/icons/send.png" alt="" />
+        </div>
+      </div>
+
+      <img
+        class="boton-flotante"
+        id="btnChat"
+        src="/img/icons/chatbottttt.png"
+        alt=""
+      />
+    </main>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fullfilment</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/forms.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/index.html">
+            <img
+              src="/img/Logo-SoyDelivery_naranja-fondo-transparente_com_uy copia 2 1.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul class="list-no-mobile">
+          <li><a class="inicio" href="/index.html">Inicio</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="/AboutUs.html">Conocenos</a></li>
+          <li>
+            <a id="contact-desktop"
+              >Contacto
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="sub-menu-desktop" id="sub-menu-desktop">
+              <li>
+                <a href="/service.html">Cotiza tus servicios</a>
+              </li>
+              <li>
+                <a href="/work.html">Trabaja con nosotros</a>
+              </li>
+              <li>
+                <a href="/driver.html">Quiero ser chofer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="icon-hamburger">
+          <i id="icon_hamburger" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu" id="drop_menu">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="/AboutUs.html">Conocenos</a></li>
+          <li class="contact" id="contact">
+            <a>Contacto <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+        </div>
+        <ul class="sub_menu" id="sub_menu">
+          <li>
+            <a href="/service.html">Cotiza tus servicios</a>
+          </li>
+          <li>
+            <a href="/work.html">Trabaja con nosotros</a>
+          </li>
+          <li>
+            <a href="/driver.html">Quiero ser chofer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="back">
+        <a href="/index.html"> <img src="/img/icons/back.png" alt="" /></a>
+        <div>
+          <p>Contacto</p>
+        </div>
+      </div>
+      <form action="" class="forms_group">
+        <h1>Te ayudamos a impulsar tu negocio!</h1>
+        <h5 class="titles-form">
+          Enfocate en tus ventas que la logistica está resuelta! Ofrecemos un
+          servicio integral para tu empresa. Almacenamiento, picking, packing,
+          etiquetado, despacho y entrega de productos
+        </h5>
+        <div class="container_forms">
+          <div>
+            <input type="text" placeholder="Nombre completo" />
+            <input type="text" placeholder="Teléfono" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Nombre del negocio" />
+          </div>
+          <div>
+            <input type="number" placeholder="Pedidos semanales aprox" />
+            <input type="text" placeholder="Tamaño de paquetes" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder=" ¿Te gustaría de agregar algun comentario?"
+          ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+        <div class="footer_forms">
+          <div class="group_footer_forms">
+            <i> <img src="/img/icons/dirección.png" alt="" /></i>
+            <div>
+              <h3>DIRECCIÓN</h3>
+              <p>Batovi 2078</p>
+              <p>San salvador 1480</p>
+            </div>
+          </div>
+
+          <div class="group_footer_forms">
+            <i> <img src="/img/icons/mail.png" alt="" /></i>
+            <div>
+              <h3>MAIL</h3>
+              <p>comercial@soydelivery.com</p>
+              <p>rrhh@soydelivery.com.uy</p>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+          <span class="chat-delivery-logo">SD</span>
+          <span class="name-company">Soydelivery</span>
+          <button class="chat-close" id="chat-close">X</button>
+        </div>
+        <div class="chat-messages">
+          <div class="chat-messages-logo">SD</div>
+          <div class="message">
+            <p class="titles">
+              Bienvenido a soydelivery. Es un gusto ayudarte hoy!
+            </p>
+            <p class="titles">
+              Porfavor indica el numero de opción que deseas :
+            </p>
+            <ol class="list-chat">
+              <li><p>Consultar el estado de un pedido</p></li>
+              <li><p>Devolucion de un paquete</p></li>
+              <li><p>Cambiar dirección u horario de entrega</p></li>
+              <li><p>Cancelar un paquete</p></li>
+              <li><p>Hablar con un agente</p></li>
+              <li><p>Consulta comercial</p></li>
+              <li><p>Solicitud de retiro</p></li>
+              <li><p>Quiero ser conductor</p></li>
+              <li><p>Finalizar atención</p></li>
+            </ol>
+          </div>
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Escribe tu mensaje..." />
+          <img src="/img/icons/send.png" alt="" />
+        </div>
+      </div>
+
+      <img
+        class="boton-flotante"
+        id="btnChat"
+        src="/img/icons/chatbottttt.png"
+        alt=""
+      />
+    </main>
+  </body>
+</html>

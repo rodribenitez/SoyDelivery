@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estado del pedido</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/order.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/index.html">
+            <img
+              src="/img/Logo-SoyDelivery_naranja-fondo-transparente_com_uy copia 2 1.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul class="list-no-mobile">
+          <li><a class="inicio" href="/index.html">Inicio</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="/AboutUs.html">Conocenos</a></li>
+          <li>
+            <a id="contact-desktop"
+              >Contacto
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="sub-menu-desktop" id="sub-menu-desktop">
+              <li>
+                <a href="/service.html">Cotiza tus servicios</a>
+              </li>
+              <li>
+                <a href="/work.html">Trabaja con nosotros</a>
+              </li>
+              <li>
+                <a href="/driver.html">Quiero ser chofer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="icon-hamburger">
+          <i id="icon_hamburger" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu" id="drop_menu">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="/AboutUs.html">Conocenos</a></li>
+          <li class="contact" id="contact">
+            <a>Contacto <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+        </div>
+        <ul class="sub_menu" id="sub_menu">
+          <li>
+            <a href="/service.html">Cotiza tus servicios</a>
+          </li>
+          <li>
+            <a href="/work.html">Trabaja con nosotros</a>
+          </li>
+          <li>
+            <a href="/driver.html">Quiero ser chofer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="back_order">
+        <a href="/index.html"> <img src="/img/back.png" alt="" /></a>
+        <div>
+          <p>Estado del pedido</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="map_order">
+          <img src="/img/Frame 1.png" alt="" />
+        </div>
+
+        <div class="items_order">
+          <div class="detail_order">
+            <div class="title_order">
+              <p>Detalles del pedido</p>
+              <h3>#226589</h3>
+            </div>
+            <div class="info_order">
+              <span class="elipse-check"></span>
+              <div class="status_order">
+                <p class="pending">Pendiente</p>
+                <p>17/05/23</p>
+              </div>
+              <span class="line_order"> </span>
+              <span class="elipse"></span>
+              <div class="status_order">
+                <p>Paquete recibido en centro Drop off</p>
+                <p>17/05/23</p>
+              </div>
+            </div>
+            <p class="view_more">Ver más</p>
+          </div>
+
+          <form class="form_order">
+            <p>¿Te gustaría ver tu pedido en tiempo real?</p>
+            <p>Ingresa tus datos para enviarte las actualizaciones</p>
+            <div class="container_inputs">
+              <div class="inputs">
+                <input type="text" placeholder="Nombre" />
+                <input type="text" placeholder="Nickname" />
+              </div>
+              <div class="inputs">
+                <input type="number" placeholder="Teléfono" />
+                <input type="email" placeholder="Email" />
+              </div>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+          <span class="chat-delivery-logo">SD</span>
+          <span class="name-company">Soydelivery</span>
+          <button class="chat-close" id="chat-close">X</button>
+        </div>
+        <div class="chat-messages">
+          <div class="chat-messages-logo">SD</div>
+          <div class="message">
+            <p class="titles">
+              Bienvenido a soydelivery. Es un gusto ayudarte hoy!
+            </p>
+            <p class="titles">
+              Porfavor indica el numero de opción que deseas :
+            </p>
+            <ol class="list-chat">
+              <li><p>Consultar el estado de un pedido</p></li>
+              <li><p>Devolucion de un paquete</p></li>
+              <li><p>Cambiar dirección u horario de entrega</p></li>
+              <li><p>Cancelar un paquete</p></li>
+              <li><p>Hablar con un agente</p></li>
+              <li><p>Consulta comercial</p></li>
+              <li><p>Solicitud de retiro</p></li>
+              <li><p>Quiero ser conductor</p></li>
+              <li><p>Finalizar atención</p></li>
+            </ol>
+          </div>
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Escribe tu mensaje..." />
+          <img src="/img/send.png" alt="" />
+        </div>
+      </div>
+
+      <img
+        class="boton-flotante"
+        id="btnChat"
+        src="/img/chatbottttt.png"
+        alt=""
+      />
+    </main>
+  </body>
+</html>
