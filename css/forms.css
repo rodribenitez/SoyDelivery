@@ -244,6 +244,14 @@ input[type="checkbox"]:checked {
 }
 
 /*media queries*/
+
+@media (max-width : 532px) {
+    .forms_group input {
+        width: 98%;
+    }
+
+}
+
 @media (min-width : 769px) {
     .forms_group {
         width: 600px;

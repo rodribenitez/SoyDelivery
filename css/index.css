@@ -246,6 +246,7 @@ button:hover,
 .title-service {
     font-size: 20px;
     font-weight: 800;
+    margin: 30px;
 }
 
 .services {
@@ -261,6 +262,11 @@ button:hover,
 .services p {
     width: 241px;
     font-size: 14px;
+}
+
+.services p .here {
+    cursor: pointer;
+    color: var(--naranja);
 }
 
 
@@ -349,7 +355,11 @@ button:hover,
 }
 
 .title-other-services {
-    margin: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--gris);
+    font-weight: 500;
 }
 
 .slide-desktop {
