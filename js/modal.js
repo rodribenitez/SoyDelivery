@@ -2,7 +2,6 @@
 const btnOpenModal = document.querySelector(".operation");
 const modal_container = document.querySelector(".modal_container")
 const modal = document.querySelector(".modal")
-console.log(btnOpenModal);
 btnOpenModal.addEventListener('click', (e) =>{
     e.preventDefault();
     modal.classList.add("modal--show")
