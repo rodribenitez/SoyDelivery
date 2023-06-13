@@ -54,7 +54,21 @@ button {
 .titles-form {
     width: 80%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+}
+
+.title-driver {
+    width: 80%;
+}
+
+.sub_title {
+    width: 80%;
+}
+
+.forms_group p {
+    margin-top: 30px;
+    color: var(--gris);
+    font-size: 14px;
 }
 
 .forms_group input {
@@ -258,6 +272,22 @@ input[type="checkbox"]:checked {
         margin: 20px auto;
     }
 
+    .forms_group h1 {
+        font-size: 30px;
+    }
+
+    .forms_group .titles-form {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .sub_title {
+        width: 70%;
+    }
+
+    .title-driver {
+        width: 65%;
+    }
 }
 
 @media (min-width : 1280px) {
@@ -269,5 +299,11 @@ input[type="checkbox"]:checked {
         width: 40%;
         margin: 0 400px;
     }
+
+    .forms_group .titles-form {
+        font-size: 17px;
+    }
+
+
 
 }

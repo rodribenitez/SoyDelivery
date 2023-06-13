@@ -12,7 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish', 'sans-serif';
+    font-weight: 500;
 }
 
 main {
@@ -139,6 +140,10 @@ button:hover,
     font-size: 20px;
     font-weight: 800;
     margin: 0px auto;
+}
+
+.section-delivery-title .title-img-desktop {
+    display: none;
 }
 
 .section-tracking {
@@ -611,6 +616,7 @@ button:hover,
     .list-no-mobile li a,
     .sub-menu-desktop li a {
         font-weight: 500;
+        font-size: 18px;
         color: var(--gris);
         cursor: pointer;
     }
@@ -669,6 +675,23 @@ button:hover,
         height: 500px;
     }
 
+    .section-delivery h2 {
+        display: none;
+    }
+
+    .section-delivery-title .title-img-desktop {
+        display: block;
+    }
+
+    .section-delivery-title {
+        padding: 30px;
+    }
+
+
+    .section-delivery .title {
+        font-weight: 500;
+        text-align: left;
+    }
 
     .section-tracking {
         height: 300px;
@@ -708,6 +731,7 @@ button:hover,
     .services-cards {
         width: 95%;
     }
+
 
 
 
@@ -820,7 +844,20 @@ button:hover,
     .section-tracking {
         width: 80%;
         height: 130px;
+        margin-top: 100px;
     }
+
+    .section-delivery-title {
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        align-items: start;
+    }
+
+    .section-delivery .title {
+        width: 100%;
+    }
+
 
     .section-input-button {
         flex-direction: row;
@@ -878,6 +915,9 @@ button:hover,
     .section-delivery {
         justify-content: space-around;
     }
+
+
+
 
     .section-tracking {
         width: 70%;
