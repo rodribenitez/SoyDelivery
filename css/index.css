@@ -243,6 +243,8 @@ button:hover,
     width: 203px;
     height: 34px;
     margin: 20px auto;
+    font-size: 15px;
+    font-weight: 500;
     padding: 8px 24px;
     color: var(--naranja);
     background: #EEEEEE;
