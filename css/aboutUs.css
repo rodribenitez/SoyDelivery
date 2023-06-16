@@ -131,7 +131,7 @@ main {
 }
 
 .section_notice p {
-    font-size: 12px;
+    font-size: 11px;
     padding: 10px;
     border-top: 0.2px solid #414141;
     margin-top: 10px;
@@ -213,7 +213,7 @@ main {
 }
 
 .info-about p {
-    font-size: 12px
+    font-size: 12px;
 }
 
 
@@ -231,7 +231,7 @@ main {
     color: #414141;
     background: linear-gradient(0deg, #FFC798, #FFC798);
     border-radius: 20px;
-    padding: 30px 5px;
+    padding: 30px 15px;
 }
 
 /*section team*/
@@ -403,6 +403,10 @@ main {
     .container_notices {
         margin: 0 auto;
         width: 1200px;
+    }
+
+    .section_notice p {
+        font-size: 14px;
     }
 
     .container-cards {
