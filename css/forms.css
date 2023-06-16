@@ -304,6 +304,12 @@ input[type="checkbox"]:checked {
         font-size: 17px;
     }
 
+    .forms_group h1 {
+        font-size: 33px;
+        margin: 10px auto;
+        font-weight: 900;
+    }
+
 
 
 }

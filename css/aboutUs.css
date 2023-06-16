@@ -408,4 +408,8 @@ main {
     .container-cards {
         justify-content: space-between;
     }
+
+    .section-team li:hover {
+        transform: scale(1.1);
+    }
 }
