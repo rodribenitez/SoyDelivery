@@ -176,9 +176,12 @@
 }
 
 .services .services-cards .cards-container img {
-    width: 130px;
+    width: 120px;
 }
 
+.services .services-cards .cards-container .img-group {
+    width: 180px;
+}
 
 
 .services .services-cards .cards-container p {
@@ -372,8 +375,13 @@
 
 
     .services .services-cards .cards-container img {
-        width: 10%;
+        width: 20%;
     }
+
+    .services .services-cards .cards-container .img-group {
+        width: 30%;
+    }
+
 
 
 
