@@ -249,6 +249,9 @@ main {
     font-weight: 500;
 }
 
+.container-team img {
+    width: 70%;
+}
 
 .team-option {
     display: flex;
@@ -272,6 +275,8 @@ main {
 .team-option li a:hover {
     color: var(--naranja);
 }
+
+
 
 
 @media (min-width : 769px) {
@@ -394,7 +399,6 @@ main {
 
     .container-team img {
         height: 500px;
-        width: 100%;
     }
 
 }
