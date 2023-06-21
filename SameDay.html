@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estado del pedido</title>
+    <title>SameDay</title>
+    <link
+      rel="shortcut icon"
+      href="/img/logoSoyDelivery_naranjaFondoTr.jpg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="/css/general.css" />
-    <link rel="stylesheet" href="/css/order.css" />
+    <link rel="stylesheet" href="/css/forms.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -77,58 +82,64 @@
         </ul>
       </nav>
     </header>
-
     <main>
-      <div class="back_order">
-        <a href="/index.html"> <img src="/img/icons/back.png" alt="" /></a>
+      <div class="back">
+        <a href="/index.html"> <img src="img/icons/back.png" alt="" /></a>
         <div>
-          <p>Estado del pedido</p>
+          <p>Quiero ser cliente</p>
         </div>
       </div>
-      <div class="container">
-        <div class="map_order">
-          <img src="/img/Frame 1.png" alt="" />
-        </div>
-
-        <div class="items_order">
-          <div class="detail_order">
-            <div class="title_order">
-              <p>Detalles del pedido</p>
-              <h3>#226589</h3>
-            </div>
-            <div class="info_order">
-              <span class="elipse-check"></span>
-              <div class="status_order">
-                <p class="pending">Pendiente</p>
-                <p>17/05/23</p>
-              </div>
-              <span class="line_order"> </span>
-              <span class="elipse"></span>
-              <div class="status_order">
-                <p>Paquete recibido en centro Drop off</p>
-                <p>17/05/23</p>
-              </div>
-            </div>
-            <p class="view_more">Ver más</p>
+      <form action="" class="forms_group">
+        <h1>Te ayudamos a impulsar tu negocio!</h1>
+        <p class="sub_title">
+          Retiramos y entregamos tus envíos en el día, para que tus clientes no
+          tengan que esperar más. Tenemos soporte de 8:00 a 24:00, para que
+          sepas en cada momento el estado de tus envíos.
+        </p>
+        <div class="container_forms">
+          <div>
+            <input type="text" placeholder="Nombre completo" />
+            <input type="text" placeholder="Teléfono" />
           </div>
 
-          <form class="form_order">
-            <p>¿Te gustaría ver tu pedido en tiempo real?</p>
-            <p>Ingresa tus datos para enviarte las actualizaciones</p>
-            <div class="container_inputs">
-              <div class="inputs">
-                <input type="text" placeholder="Nombre" />
-                <input type="text" placeholder="Nickname" />
-              </div>
-              <div class="inputs">
-                <input type="number" placeholder="Teléfono" />
-                <input type="email" placeholder="Email" />
-              </div>
-            </div>
-            <button type="submit">Enviar</button>
-          </form>
+          <div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Nombre del negocio" />
+          </div>
+          <div>
+            <input type="number" placeholder="Pedidos semanales aprox" />
+            <input type="text" placeholder="Tamaño de paquetes" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="¿Te gustaria agregar algún comentario?"
+          ></textarea>
         </div>
-      </div>
+        <button type="submit">Enviar</button>
+
+        <div class="footer_forms">
+          <div class="group_footer_forms">
+            <i> <img src="/img/icons/dirección.png" alt="" /></i>
+            <div>
+              <h3>DIRECCIÓN</h3>
+              <p>Batovi 2078</p>
+              <p>San salvador 1480</p>
+            </div>
+          </div>
+
+          <div class="group_footer_forms">
+            <i> <img src="/img/icons/mail.png" alt="" /></i>
+            <div>
+              <h3>MAIL</h3>
+              <p>comercial@soydelivery.com</p>
+              <p>rrhh@soydelivery.com.uy</p>
+            </div>
+          </div>
+        </div>
+      </form>
       <div class="chat-container" id="chat-container">
         <div class="chat-header">
           <span class="chat-delivery-logo">SD</span>
@@ -166,7 +177,7 @@
       <img
         class="boton-flotante"
         id="btnChat"
-        src="/img//icons/chatbottttt.png"
+        src="/img/icons/chatbottttt.png"
         alt=""
       />
     </main>
