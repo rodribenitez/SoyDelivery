@@ -93,8 +93,13 @@ main {
     width: 60%;
 }
 
+.cards .card-info h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
 .cards .card-info p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -443,8 +448,13 @@ main {
         width: 90%;
     }
 
+    .cards .card-info h5 {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
     .cards .card-info p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 
