@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conocenos</title>
+    <link
+      rel="shortcut icon"
+      href="/img/logoSoyDelivery_naranjaFondoTr.jpg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/aboutUs.css" />
     <link
@@ -262,10 +267,9 @@
       />
 
       <!-- modal -->
-
       <div class="modal">
-        <dmoiv class="swiper mySwiper modal__container">
-          <div class="swiper-wrapper container-cards">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
             <div class="swiper-slide cards">
               <img src="/img/team/Admin/Ana Admin.jpg" alt="" />
               <div class="card-info">
@@ -487,10 +491,9 @@
               </div>
             </div>
           </div>
-        </dmoiv>
-
-        <div class="swiper-button-next btn-no-mobile"></div>
-        <div class="swiper-button-prev btn-no-mobile"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </main>
     <footer class="footer">
@@ -525,31 +528,36 @@
         </div>
       </div>
     </footer>
+
+    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 30,
-        centeredSlide: true,
         loop: true,
-        breakpoints: {
-          769: {
-            slidesPerView: 2,
-            loop: true,
-          },
-          1280: {
-            slidesPerView: 3,
-            loop: true,
-          },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
         },
-        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
+        breakpoints: {
+          769: {
+            slidesPerView: 2,
+          },
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+          },
         },
       });
     </script>
