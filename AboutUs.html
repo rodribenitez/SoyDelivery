@@ -205,17 +205,17 @@
           <ul>
             <div class="team-option">
               <div>
-                <li class="operation"><a>Operaciones</a></li>
-                <li><a href="">Administración y finanzas</a></li>
-                <li><a href="">Comercial</a></li>
-                <li><a href="">Tecnología</a></li>
-                <li><a href="">Experiencia de usuario</a></li>
+                <li><a id="operation">Operaciones</a></li>
+                <li><a id="admin">Administración y finanzas</a></li>
+                <li><a id="commercial">Comercial</a></li>
+                <li><a id="tech">Tecnología</a></li>
+                <li><a id="uxui">Experiencia de usuario</a></li>
               </div>
               <div>
-                <li><a href="">Innovación logística</a></li>
-                <li><a href="">Análisis de datos</a></li>
-                <li><a href="">Recursos humanos</a></li>
-                <li><a href="">Atención al cliente</a></li>
+                <li><a id="logistics">Innovación logística</a></li>
+                <li><a id="dates">Análisis de datos</a></li>
+                <li><a id="rrhh">Recursos humanos</a></li>
+                <li><a id="atc">Atención al cliente</a></li>
               </div>
             </div>
           </ul>
@@ -267,7 +267,7 @@
       />
 
       <!-- modal -->
-      <div class="modal">
+      <div id="modalAdmin" class="modal">
         <div class="modal__container swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide cards">
@@ -291,55 +291,7 @@
                 <p>Administradora</p>
               </div>
             </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/AnalisisDatos/Victoria.jpg" alt="" />
-              <div class="card-info">
-                <h5>Victoria</h5>
-                <p>Analisis de Datos</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/ATC/Alejandro.jpg" alt="" />
-              <div class="card-info">
-                <h5>Alejandro</h5>
-                <p>Atencion al cliente</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/ATC/Jennifer.jpg" alt="" />
-              <div class="card-info">
-                <h5>Jennifer</h5>
-                <p>Atencion al cliente</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/ATC/Lucas ATC.jpg" alt="" />
-              <div class="card-info">
-                <h5>Lucas</h5>
-                <p>Atencion al cliente</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/CeoyComercial/Joaquín.jpg" alt="" />
-              <div class="card-info">
-                <h5>Joaquín</h5>
-                <p>Ceo y Comercial</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/Comercial/Fernando.jpg" alt="" />
-              <div class="card-info">
-                <h5>Fernando</h5>
-                <p>Comercial</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/Comercial/Ramiro.jpg" alt="" />
-              <div class="card-info">
-                <h5>Ramiro</h5>
-                <p>Comercial</p>
-              </div>
-            </div>
+            <!--
             <div class="swiper-slide cards">
               <img src="/img/team/Conductor/Ernesto.jpg" alt="" />
               <div class="card-info">
@@ -375,20 +327,15 @@
                 <p>Fundador y Ceo</p>
               </div>
             </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/InnLogistica/Ainhoa.jpg" alt="" />
-              <div class="card-info">
-                <h5>Ainhoa</h5>
-                <p>Innovación Logistica</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/Tecnologia/Maycoll.jpg" alt="" />
-              <div class="card-info">
-                <h5>Maycoll</h5>
-                <p>Tecnologia</p>
-              </div>
-            </div>
+             -->
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalOperation" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
             <div class="swiper-slide cards">
               <img src="/img/team/Operaciones/Ana Op.jpg" alt="" />
               <div class="card-info">
@@ -473,6 +420,105 @@
                 <p>Operaciones</p>
               </div>
             </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalCommercial" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/CeoyComercial/Joaquín.jpg" alt="" />
+              <div class="card-info">
+                <h5>Joaquín</h5>
+                <p>Ceo y Comercial</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/Comercial/Ramiro.jpg" alt="" />
+              <div class="card-info">
+                <h5>Ramiro</h5>
+                <p>Comercial</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/Comercial/Fernando.jpg" alt="" />
+              <div class="card-info">
+                <h5>Fernando</h5>
+                <p>Comercial</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalTech" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/Tecnologia/Maycoll.jpg" alt="" />
+              <div class="card-info">
+                <h5>Maycoll</h5>
+                <p>Tecnologia</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img
+                src="/img/team/Tecnologia/Tecy RRHH/Marcelo TEC RH.jpg"
+                alt=""
+              />
+              <div class="card-info">
+                <h5>Marcelo</h5>
+                <p>Tecnologia y RRHH</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalUxUi" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalLogistics" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/InnLogistica/Ainhoa.jpg" alt="" />
+              <div class="card-info">
+                <h5>Ainhoa</h5>
+                <p>Innovación Logistica</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalDates" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/AnalisisDatos/Victoria.jpg" alt="" />
+              <div class="card-info">
+                <h5>Victoria</h5>
+                <p>Analisis de Datos</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div id="modalRRHH" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
             <div class="swiper-slide cards">
               <img src="/img/team/RRHH/Agustina.jpg" alt="" />
               <div class="card-info">
@@ -488,6 +534,36 @@
               <div class="card-info">
                 <h5>Marcelo</h5>
                 <p>Tecnologia y RRHH</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+      <div id="modalATC" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/ATC/Alejandro.jpg" alt="" />
+              <div class="card-info">
+                <h5>Alejandro</h5>
+                <p>Atencion al cliente</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/ATC/Jennifer.jpg" alt="" />
+              <div class="card-info">
+                <h5>Jennifer</h5>
+                <p>Atencion al cliente</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/ATC/Lucas ATC.jpg" alt="" />
+              <div class="card-info">
+                <h5>Lucas</h5>
+                <p>Atencion al cliente</p>
               </div>
             </div>
           </div>
@@ -552,7 +628,8 @@
           },
           1280: {
             slidesPerView: 3,
-            spaceBetween: 0,
+            spaceBetween: 30,
+            centerInsufficientSlides: 2,
           },
         },
       });

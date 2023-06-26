@@ -278,6 +278,7 @@ main {
 
 .team-option li a:hover {
     color: var(--naranja);
+    cursor: pointer;
 }
 
 
