@@ -205,6 +205,7 @@
           <ul>
             <div class="team-option">
               <div>
+                <li><a id="management">Gerencia</a></li>
                 <li><a id="operation">Operaciones</a></li>
                 <li><a id="admin">Administración y finanzas</a></li>
                 <li><a id="commercial">Comercial</a></li>
@@ -216,6 +217,7 @@
                 <li><a id="dates">Análisis de datos</a></li>
                 <li><a id="rrhh">Recursos humanos</a></li>
                 <li><a id="atc">Atención al cliente</a></li>
+                <li><a id="drivers">Flota</a></li>
               </div>
             </div>
           </ul>
@@ -267,6 +269,21 @@
       />
 
       <!-- modal -->
+      <div id="modalManagement" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/FundadorCeo/Rodrigo.jpg" alt="" />
+              <div class="card-info">
+                <h5>Rodrigo</h5>
+                <p>Fundador y Ceo</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
       <div id="modalAdmin" class="modal">
         <div class="modal__container swiper mySwiper">
           <div class="swiper-wrapper">
@@ -291,43 +308,6 @@
                 <p>Administradora</p>
               </div>
             </div>
-            <!--
-            <div class="swiper-slide cards">
-              <img src="/img/team/Conductor/Ernesto.jpg" alt="" />
-              <div class="card-info">
-                <h5>Ernesto</h5>
-                <p>Conductor</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/Conductor/Gonzalo.jpg" alt="" />
-              <div class="card-info">
-                <h5>Gonzalo</h5>
-                <p>Conductor</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/Conductor/Luis.jpg" alt="" />
-              <div class="card-info">
-                <h5>Luis</h5>
-                <p>Conductor</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/Conductor/Yoslan.jpg" alt="" />
-              <div class="card-info">
-                <h5>Yoslan</h5>
-                <p>Conductor</p>
-              </div>
-            </div>
-            <div class="swiper-slide cards">
-              <img src="/img/team/FundadorCeo/Rodrigo.jpg" alt="" />
-              <div class="card-info">
-                <h5>Rodrigo</h5>
-                <p>Fundador y Ceo</p>
-              </div>
-            </div>
-             -->
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -571,6 +551,42 @@
           <div class="swiper-button-prev"></div>
         </div>
       </div>
+      <div id="modalDrivers" class="modal">
+        <div class="modal__container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide cards">
+              <img src="/img/team/Conductor/Ernesto.jpg" alt="" />
+              <div class="card-info">
+                <h5>Ernesto</h5>
+                <p>Conductor</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/Conductor/Gonzalo.jpg" alt="" />
+              <div class="card-info">
+                <h5>Gonzalo</h5>
+                <p>Conductor</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/Conductor/Luis.jpg" alt="" />
+              <div class="card-info">
+                <h5>Luis</h5>
+                <p>Conductor</p>
+              </div>
+            </div>
+            <div class="swiper-slide cards">
+              <img src="/img/team/Conductor/Yoslan.jpg" alt="" />
+              <div class="card-info">
+                <h5>Yoslan</h5>
+                <p>Conductor</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <img
@@ -627,9 +643,9 @@
             slidesPerView: 2,
           },
           1280: {
+            loop: true,
             slidesPerView: 3,
-            spaceBetween: 30,
-            centerInsufficientSlides: 2,
+            centerInsufficientSlides: 1,
           },
         },
       });
